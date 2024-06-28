@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  footer div>a {
+      margin: 1rem;
+  }
+  
+  footer div>a {
+      color: white;
+  }
+  
+  footer span {
+      display: block;
+      font-size: 1.2rem;
+      margin: 2rem;
+  }
+  
+  footer span a {
+      text-decoration: none;
+      color: #37648c;
+      text-shadow: 2px 2px 2px black;
+  }
+  
+  .sns-share {
+      margin: auto;
+      width: 50%;
+      text-align: center;
+      font-size: 1.5rem;
+  }
+  
+  footer {
+      padding-top: 5rem;
+      background: #1E2832;
+      height: 15rem;
+  }
+  
+  #three header {
+      margin-bottom: 10rem;
+  }
+  
+  #three p {
+      font-size: 2rem;
+      font-weight: 200;
+  }
+  
+  #three h2 {
+      font-size: 3rem;
+  }
+  
+  .images a {
+      flex: 25%;
+      height: 150px;
+      /* display: inherit; */
+  }
+  
+  #two .images {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  #two p {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-top: 1rem;
+  }
+  
+  #two h2 {
+      font-size: 3rem;
+      margin-bottom: 0;
+  }
+  
+  #three {
+    background: url('https://images.unsplash.com/photo-1551740994-7af69385a217?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    background-position: center;
+    color: white;
+    padding: 2rem;
+  }
+  
+  a.button.alt {
+      text-decoration: none;
+      border: 2px solid #51BAA4;
+      color:  #51BAA4;
+      border-radius: 2rem;
+      padding: .5rem 3rem;
+      font-size: 1rem;
+      font-weight: 800;
+  }
+  
+  li {
+      list-style: none;
+  }
+  
+  article.feature {margin-top: 3rem;margin-bottom: 3rem;background: white;border-radius: .3rem;}
+  
+  article.feature:nth-child(even) span {
+      /* float: right; */
+      /* vertical-align: middle; */
+  }
+  
+  article.feature:nth-child(even) div {
+      /* float: right; */
+      vertical-align: middle;
+  }
+  
+  .content {
+      display: inline-block;
+      width: 50%;
+      vertical-align: middle;
+      padding: 0 1rem;
+  }
+  
+  img {
+      max-width: 100%;
+      display: block;
+      padding: .5rem;
+  }
+  
+  .images img {
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  span.image {
+      display: inline-block;
+      width: 48%;
+      vertical-align: middle;
+  }
+  
+  .inner {
+  }
+  
+  #two .inner {
+      background: white;
+      text-align: center;
+      padding: 2rem 1rem;
+  }
+  
+  section.section-wrapper {
+      padding: 1.2rem;
+  }
+  
+  #banner h2 {
+      margin-top: 2rem;
+  }
+  
+  ul.actions {
+      margin: 3rem 0;
+      padding: 0;
+  }
+  
+  a.button.big {
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(to right, #51BAA4 , #aaddf8);
+      border-radius: 2rem;
+      padding: 1rem 1.4rem;
+  }
+  
+  html body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    color: white;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  #header h1 {
+    margin: 0;
+    display: inline-block;
+    font-size:2rem;
+    float: left;
+    text-shadow: 2px 2px 10px black;
+  }
+  #header button {
+    background: transparent;
+    border: none;
+    display: inline-block;
+    font-size:2rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.9rem;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  button {}
+  
+  #three button {
+      border: 2px solid white;
+      color: white;
+      background: transparent;
+      font-size: 1.5rem;
+      border-radius: 1rem;
+      padding: .5rem 2rem;
+  }
+  
+  #banner {
+    background: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 8rem;
+  }
+  
+  #banner .banner-title {
+    font-size: 2.2rem;
+  }
+  
+  #banner i {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 100%;
+    font-size: 3rem;
+    width: 8rem;
+    height: 8rem;
+    padding: 2rem;
+    line-height: 4rem;
+    margin: 2rem;
+  }
+  
+  #banner p {
+    font-size: 1.2rem;
+  }
+  
+  #banner ul li {list-style: none;}
